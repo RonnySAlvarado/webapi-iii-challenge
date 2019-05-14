@@ -7,7 +7,7 @@ server.get('/', (req, res) => {
 });
 
 //custom middleware
-
+//Initial commit
 function logger(req, res, next) {
 
 };
