@@ -101,7 +101,6 @@ function validatePost(req, res, next) {
         } else {
             res.status(400).json({ message: "missing post data" })
         }
-
 };
 
 module.exports = router;
